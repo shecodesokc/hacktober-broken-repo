@@ -10,7 +10,7 @@ function Hero() {
           {/* spellcheck ghost took the e */}
         </p>
         <a 
-          href="https://github.com/YOUR_USERNAME/YOUR_REPO" 
+          href="https://github.com/shecodesokc/hacktober-broken-repo/issues" 
           className="cta-button"
           target="_blank"
           rel="noopener noreferrer"
