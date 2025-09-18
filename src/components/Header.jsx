@@ -12,7 +12,8 @@ function Header() {
           />
         </div>
         <div className="title-container">
-          <h1 className="main-title">HacktobHERfest 2025 🎃</h1>
+          <h1 className="main-title">HacktobHERfets 🎃</h1>
+          {/* pumpkin ate the missing letters */}
           <p className="subtitle">Hosted by SheCodesOKC</p>
         </div>
       </div>
