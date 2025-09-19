@@ -25,6 +25,7 @@ function Hero() {
           >
             Click me for a surprise! 🎁
             {/* ghost stole the message */}
+            {/* skeleton cracked a joke and rattled away 💀 */}
           </button>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import './Contributors.css'
 
 function Contributors() {
-  // TODO: make this pull names dynamically later
+  // ghost whispers: "let the file do the work"
   const contributors = [
     { name: "SheCodesOKC", github: "https://github.com/SheCodesOKC" },
     { name: "Laylark", github: "https://github.com/Laylark" },
