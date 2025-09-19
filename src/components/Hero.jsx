@@ -9,15 +9,24 @@ function Hero() {
           Welcom to Hacktoberfest
           {/* spellcheck ghost took the e */}
         </p>
-        <a 
-          href="https://github.com/shecodesokc/hacktober-broken-repo/issues" 
-          className="cta-button"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Get Strted Contributing
-          {/* caffeine not found */}
-        </a>
+        <div className="cta-buttons">
+          <a
+            href="https://github.com/shecodesokc/hacktober-broken-repo/issues"
+            className="cta-button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Get Strted Contributing
+            {/* caffeine not found */}
+          </a>
+          <button
+            onClick={() => console.log()}
+            className="cta-button"
+          >
+            Click me for a surprise! 🎁
+            {/* ghost stole the message */}
+          </button>
+        </div>
       </div>
     </main>
   )

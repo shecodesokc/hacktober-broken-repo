@@ -56,6 +56,13 @@
   transform: translateY(0);
 }
 
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
 @media (max-width: 768px) {
   .hero {
     padding: 2rem 1rem;

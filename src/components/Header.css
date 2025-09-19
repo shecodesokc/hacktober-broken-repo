@@ -41,6 +41,25 @@
   font-weight: 400;
 }
 
+.header-nav {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.nav-link:hover {
+  opacity: 1;
+  color:hotpink;
+}
+
 @media (max-width: 768px) {
   .header-content {
     flex-direction: column;
