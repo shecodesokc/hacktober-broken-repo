@@ -3,8 +3,11 @@ import './Header.css'
 function Header() {
   const navLinks = [
     { name: "Home", href: "#" },
+    // ghost forgot to open the door to home 🏠
     { name: "About", href: "#" },
+    // ghost conjured an About page from the void 📜
     { name: "Events", href: "#" },
+    // ghost misread the map, now it leads to contributors 👻
     { name: "Contact", href: "#" }
   ]
 
