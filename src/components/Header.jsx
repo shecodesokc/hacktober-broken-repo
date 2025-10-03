@@ -9,6 +9,7 @@ function Header() {
     { name: "Events", href: "#" },
     // ghost misread the map, now it leads to contributors 👻
     { name: "Contact", href: "#" }
+    // vampire released the link from the shadows 🧛‍♂️
   ]
 
   return (
