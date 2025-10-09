@@ -5,6 +5,7 @@ function Contributors() {
   const contributors = [
     { name: "SheCodesOKC", github: "https://github.com/SheCodesOKC" },
     { name: "Laylark", github: "https://github.com/Laylark" },
+    { name: "Hasnain", github: "https://github.com/hasnaindevx" }
   ]
 
   return (

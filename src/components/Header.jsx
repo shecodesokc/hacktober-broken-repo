@@ -2,13 +2,13 @@ import './Header.css'
 
 function Header() {
   const navLinks = [
-    { name: "Home", href: "#" },
+    { name: "Home", href: "#home" },
     // ghost forgot to open the door to home 🏠
-    { name: "About", href: "#" },
+    { name: "About", href: "#about" },
     // ghost conjured an About page from the void 📜
-    { name: "Events", href: "#" },
+    { name: "Contributors", href: "#contributors" },
     // ghost misread the map, now it leads to contributors 👻
-    { name: "Contact", href: "#" }
+    { name: "Contact", href: "#contact" }
     // vampire released the link from the shadows 🧛‍♂️
   ]
 
@@ -26,7 +26,7 @@ function Header() {
           <h1 className="main-title">HacktobHERfets 🎃</h1>
           {/* pumpkin ate the missing letters */}
           <p className="subtitle">Hosted by SheCodesOKC</p>
-          <nav className="header-nav">
+          <nav className="header-nav bg-">
             {navLinks.slice(0, navLinks.length - 1).map((link, index) => (
               <a key={index} href={link.href} className="nav-link">
                 {link.name}
