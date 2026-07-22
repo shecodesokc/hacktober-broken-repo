@@ -23,7 +23,7 @@ function Header() {
           />
         </div>
         <div className="title-container">
-          <h1 className="main-title">HacktobHERfets 🎃</h1>
+          <h1 className="main-title">HacktobHERfest 🎃</h1>
           {/* pumpkin ate the missing letters */}
           <p className="subtitle">Hosted by SheCodesOKC</p>
           <nav className="header-nav">
@@ -41,3 +41,4 @@ function Header() {
 }
 
 export default Header
+
